@@ -7,5 +7,8 @@ import pants_utils
 setup(
     name='pants_utils',
     version=pants_utils.VERSION,
-    packages=['pants_utils'],
+    packages=[
+        'pants_utils',
+        'pants_utils.tornado_utils'
+    ],
 )
