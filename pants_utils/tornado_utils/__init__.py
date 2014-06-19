@@ -3,3 +3,4 @@
 #
 
 from static_handler import PexStaticFileHandler
+from loaders import PexTemplateLoader
