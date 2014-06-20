@@ -3,3 +3,4 @@
 #
 
 from .loaders import EggAppLoader
+from .finders import (EggStorage, EggFinder)
