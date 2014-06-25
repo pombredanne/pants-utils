@@ -1,5 +1,4 @@
 backports.ssl-match-hostname==3.4.0.2
-pants-utils==1.0
 py==1.4.20
 pytest==2.5.2
 tornado==3.2.2
