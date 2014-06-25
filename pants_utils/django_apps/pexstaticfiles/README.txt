@@ -1,0 +1,1 @@
+pexstaticfiles is very similar to django's staticfiles app, which serves static files in development environments. However, django's staticfiles app is not compatible with PEX because PEX requires files to be referenced via pkg_resource.

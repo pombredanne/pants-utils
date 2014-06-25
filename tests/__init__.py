@@ -1,2 +1,2 @@
 from tornado_utils_tests import PantsUtilsTornadoTestCase
-from django_utils_tests import PantsUtilsDjangoTestCase
+from django_app_tests import PantsUtilsDjangoTestCase

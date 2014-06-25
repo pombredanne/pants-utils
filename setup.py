@@ -1,15 +1,11 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 import pants_utils
 
 setup(
     name='pants-utils',
     version=pants_utils.VERSION,
-    packages=[
-        'pants_utils',
-        'pants_utils.tornado_utils',
-        'pants_utils.django_utils',
-    ],
+    packages= find_packages()
 )
